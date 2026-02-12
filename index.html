@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sayyed Mohammed Juraij - Business, Education, Systems. Building thoughtful, scalable ideas.">
+    <title>Sayyed Mohammed Juraij | Business • Education • Systems</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Sora:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <span class="preloader-logo">SMJURAIJ</span>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" onclick="scrollToSection('hero'); return false;">SMJuraij</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#business" onclick="scrollToSection('business'); return false;">Business</a></li>
+                <li><a href="#education" onclick="scrollToSection('education'); return false;">Education</a></li>
+                <li><a href="#systems" onclick="scrollToSection('systems'); return false;">Systems</a></li>
+                <li><a href="#focus" onclick="scrollToSection('focus'); return false;">Focus</a></li>
+                <li><a href="#contact" onclick="scrollToSection('contact'); return false;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/hero_office.jpg" alt="Modern office" loading="eager">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="line">Sayyed Mohammed Juraij</span>
+                    <span class="line accent">Business • Education • Systems</span>
+                </h1>
+                <p class="hero-description">
+                    Building thoughtful, scalable ideas at the intersection of business and learning.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#focus" class="btn btn-primary" onclick="scrollToSection('focus'); return false;">
+                        View Focus
+                    </a>
+                    <a href="#contact" class="btn btn-ghost" onclick="scrollToSection('contact'); return false;">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Business Section -->
+    <section class="section business" id="business">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-content">
+                    <span class="section-label">Business</span>
+                    <h2 class="section-title">
+                        Strategy built for<br><span class="accent">real-world growth.</span>
+                    </h2>
+                    <p class="section-text">
+                        Research-led planning and systems that keep execution calm, clear, and scalable. 
+                        I help organizations navigate complexity and emerge stronger.
+                    </p>
+                    <a href="#focus" class="link" onclick="scrollToSection('focus'); return false;">
+                        Explore approach <span class="arrow">→</span>
+                    </a>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-image">
+                    <img src="images/business_meeting.jpg" alt="Business strategy meeting" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-grid reverse">
+                <div class="section-image">
+                    <img src="images/education_collaboration.jpg" alt="Educational collaboration" loading="lazy">
+                </div>
+                <div class="section-content">
+                    <span class="section-label">Education</span>
+                    <h2 class="section-title">
+                        Learning experiences<br><span class="accent">that actually stick.</span>
+                    </h2>
+                    <p class="section-text">
+                        Curriculum design, assessment strategy, and coaching frameworks—built for 
+                        clarity and momentum. Transform knowledge into lasting capability.
+                    </p>
+                    <a href="#focus" class="link" onclick="scrollToSection('focus'); return false;">
+                        See how I work <span class="arrow">→</span>
+                    </a>
+                    <div class="tags">
+                        <span class="tag">Curriculum</span>
+                        <span class="tag">Assessment</span>
+                        <span class="tag">Coaching</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Systems Section -->
+    <section class="section systems" id="systems">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-content">
+                    <span class="section-label">Systems</span>
+                    <h2 class="section-title">
+                        Structure that keeps<br><span class="accent">complexity calm.</span>
+                    </h2>
+                    <p class="section-text">
+                        I design workflows, decision frameworks, and operating rhythms that teams 
+                        can rely on. Systems that scale without breaking.
+                    </p>
+                    <a href="#focus" class="link" onclick="scrollToSection('focus'); return false;">
+                        View capabilities <span class="arrow">→</span>
+                    </a>
+                    <div class="tags">
+                        <span class="tag">Process</span>
+                        <span class="tag">Operations</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                </div>
+                <div class="section-image">
+                    <img src="images/systems_workspace.jpg" alt="Systems workspace" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Focus Areas Section -->
+    <section class="section focus" id="focus">
+        <div class="container">
+            <div class="focus-header">
+                <span class="section-label">Focus Areas</span>
+                <h2 class="section-title">What I'm focused on <span class="accent">now</span></h2>
+            </div>
+            <div class="focus-grid">
+                <div class="focus-card">
+                    <div class="focus-icon">📈</div>
+                    <h3>Business Strategy</h3>
+                    <p>Market research, positioning, and roadmaps that reduce risk.</p>
+                </div>
+                <div class="focus-card">
+                    <div class="focus-icon">📚</div>
+                    <h3>Education Consulting</h3>
+                    <p>Curriculum, assessment design, and learning operations.</p>
+                </div>
+                <div class="focus-card">
+                    <div class="focus-icon">💻</div>
+                    <h3>Digital Systems</h3>
+                    <p>Product thinking, user flows, and scalable architecture.</p>
+                </div>
+                <div class="focus-card">
+                    <div class="focus-icon">🔬</div>
+                    <h3>Research & Testing</h3>
+                    <p>Data-informed pilots, feedback loops, and iteration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beyond Work Section -->
+    <section class="section beyond" id="beyond">
+        <div class="container">
+            <div class="section-grid reverse">
+                <div class="section-image">
+                    <img src="images/beyond_street.jpg" alt="Urban exploration" loading="lazy">
+                </div>
+                <div class="section-content">
+                    <span class="section-label">Beyond Work</span>
+                    <h2 class="section-title">
+                        Curiosity outside<br><span class="accent">the timeline.</span>
+                    </h2>
+                    <p class="section-text">
+                        I explore ideas around learning, culture, and how people grow—then bring 
+                        those insights back into the work.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Culture</span>
+                        <span class="tag">Systems</span>
+                        <span class="tag">Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-content">
+                    <span class="section-label">Contact</span>
+                    <h2 class="section-title">
+                        Let's build<br><span class="accent">something meaningful.</span>
+                    </h2>
+                    <p class="section-text">
+                        Tell me what you're working on. I'll respond with honest next steps.
+                    </p>
+                    
+                    <div class="contact-info">
+                        <a href="https://wa.me/971529682123" class="contact-item" target="_blank" rel="noopener">
+                            <span class="contact-icon">💬</span>
+                            <div>
+                                <span class="contact-label">UAE (WhatsApp)</span>
+                                <span class="contact-value">+971 52 968 2123</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/917736385780" class="contact-item" target="_blank" rel="noopener">
+                            <span class="contact-icon">💬</span>
+                            <div>
+                                <span class="contact-label">India (WhatsApp)</span>
+                                <span class="contact-value">+91 77 3638 5780</span>
+                            </div>
+                        </a>
+                        <a href="mailto:hello@smjuraij.com" class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">hello@smjuraij.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="section-image">
+                    <img src="images/contact_portrait.jpg" alt="Contact portrait" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">SMJuraij</span>
+                    <p>Business • Education • Systems</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#business" onclick="scrollToSection('business'); return false;">Business</a>
+                    <a href="#education" onclick="scrollToSection('education'); return false;">Education</a>
+                    <a href="#systems" onclick="scrollToSection('systems'); return false;">Systems</a>
+                    <a href="#contact" onclick="scrollToSection('contact'); return false;">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Sayyed Mohammed Juraij. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
